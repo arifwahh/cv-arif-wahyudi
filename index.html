@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arif Wahyudi — Software Engineer | Backend, API Automation &amp; QA</title>
+<meta name="description" content="Arif Wahyudi — Software Engineer specialising in backend development with Laravel/PHP microservices, metadata-driven API automation, enterprise application migration and software quality assurance.">
+<meta name="author" content="Arif Wahyudi">
+<meta name="theme-color" content="#0b1020">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Arif Wahyudi — Software Engineer">
+<meta property="og:description" content="Backend engineer building API microservices, automation platforms and enterprise systems.">
+<meta property="og:url" content="https://arifwahh.github.io/">
+<link rel="canonical" href="https://arifwahh.github.io/">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ ICON SPRITE ============ -->
+<svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="i-github" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.26.72-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.8-.01 3.18 0 .3.2.67.8.55A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21h-4v-5.6c0-1.34-.03-3.07-1.9-3.07-1.9 0-2.19 1.46-2.19 2.97V21h-4V9Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3h3l1.5 4-2 1.5a12 12 0 0 0 5.5 5.5L16 12l4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 3.5 5.2 2 2 0 0 1 5.5 3Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0 4.5-4.5M12 15l-4.5-4.5M4 20h16"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m0 0-6-6m6 6-6 6"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-4 4 4 4m8-8 4 4-4 4M14 4l-4 16"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3.5 2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9 6.7 19.7l1.1-5.9L3.5 9.7l5.9-.8Z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2.5 12h2M19.5 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.5 8.5 0 1 0 10.2 10.2Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="7" width="19" height="13" rx="2.5"/><path d="M8.5 7V5.5A2 2 0 0 1 10.5 3.5h3a2 2 0 0 1 2 2V7M2.5 12.5h19"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4 2.5 8.5 12 13l9.5-4.5L12 4Z"/><path d="M6 10.8v4.7c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-4.7"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5.5"/><path d="m8.5 13.8-1.5 7 5-2.6 5 2.6-1.5-7"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M15 6.5V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h1.5"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="container header__inner">
+    <a class="brand" href="#top">
+      <span class="brand__mark">AW</span>
+      <span class="brand__text">Arif Wahyudi</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn--primary btn--sm nav__cta" href="assets/Arif Wahyudi - Software Engineer Resume.pdf" download>
+        <svg><use href="#i-download"></use></svg><span>Download CV</span>
+      </a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle colour theme" title="Toggle theme">
+        <svg class="icon-sun"><use href="#i-sun"></use></svg>
+        <svg class="icon-moon"><use href="#i-moon"></use></svg>
+      </button>
+      <button class="icon-btn nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <svg class="icon-open"><use href="#i-menu"></use></svg>
+        <svg class="icon-close"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal"><span class="pulse-dot"></span> Available for backend &amp; automation roles</p>
+      <h1 class="hero__title reveal">
+        Arif Wahyudi
+        <span class="grad-text">Software Engineer</span>
+      </h1>
+      <p class="hero__lead reveal">
+        Backend engineer with 6+ years building production systems — Laravel/PHP microservices,
+        metadata-driven API automation platforms, enterprise ERP migrations and end-to-end
+        software quality automation.
+      </p>
+
+      <ul class="hero__contact reveal">
+        <li><svg><use href="#i-pin"></use></svg> Semarang Regency, Indonesia</li>
+        <li><a href="mailto:arifwahh@gmail.com"><svg><use href="#i-mail"></use></svg> arifwahh@gmail.com</a></li>
+        <li><a href="tel:+6287733885667"><svg><use href="#i-phone"></use></svg> +62 877-3388-5667</a></li>
+      </ul>
+
+      <div class="hero__actions reveal">
+        <a class="btn btn--primary" href="#projects">
+          <svg><use href="#i-code"></use></svg><span>View all 36 projects</span>
+        </a>
+        <a class="btn btn--ghost" href="assets/Arif Wahyudi - Software Engineer Resume.pdf" download>
+          <svg><use href="#i-download"></use></svg><span>Download CV</span>
+        </a>
+        <a class="btn btn--ghost" href="https://github.com/arifwahh" target="_blank" rel="noopener">
+          <svg><use href="#i-github"></use></svg><span>GitHub</span>
+        </a>
+      </div>
+
+      <ul class="stats reveal">
+        <li><strong>6+</strong><span>Years experience</span></li>
+        <li><strong>500+</strong><span>Commits contributed</span></li>
+        <li><strong>1,500+</strong><span>Test cases written</span></li>
+        <li><strong>36</strong><span>Projects shipped</span></li>
+      </ul>
+    </div>
+
+    <aside class="hero__card reveal" aria-label="Profile summary">
+      <div class="avatar">
+        <img src="https://github.com/arifwahh.png?size=460" alt="Arif Wahyudi" width="180" height="180" loading="lazy"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <span class="avatar__fallback" aria-hidden="true">AW</span>
+      </div>
+      <div class="hero__card-body">
+        <h2>Arif Wahyudi</h2>
+        <p class="hero__card-role">Software Engineer · Backend &amp; Automation</p>
+        <ul class="hero__card-links">
+          <li><a href="https://github.com/arifwahh" target="_blank" rel="noopener"><svg><use href="#i-github"></use></svg> github.com/arifwahh</a></li>
+          <li><a href="https://www.linkedin.com/in/arifwahh/" target="_blank" rel="noopener"><svg><use href="#i-linkedin"></use></svg> linkedin.com/in/arifwahh</a></li>
+          <li><a href="mailto:arifwahh@gmail.com"><svg><use href="#i-mail"></use></svg> arifwahh@gmail.com</a></li>
+        </ul>
+        <div class="hero__card-tags">
+          <span>Laravel</span><span>PHP 8.4</span><span>Spring Boot</span><span>React</span><span>Docker</span><span>Selenium</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">01 — Profile</span>
+      <h2 class="section__title">About me</h2>
+    </div>
+
+    <div class="about">
+      <div class="about__body reveal">
+        <p>
+          Software Engineer with experience in backend development, API automation, enterprise application
+          migration and business-system development. Experienced in Laravel/PHP microservices,
+          metadata-driven API generation and database-driven automation workflows.
+        </p>
+        <p>
+          At <strong>AutomatedPros Inc.</strong> I contributed 500+ commits to backend automation and helped build
+          three platforms supporting API microservices project automation. Earlier I migrated a legacy ERP from
+          J2EE on WebLogic 8.1 to Java Spring Boot on WebLogic 12c, and upgraded Microsoft SQL Server from 2000 to 2017.
+        </p>
+        <p>
+          I work across the full delivery loop — building the services, wiring the infrastructure, automating the
+          API layer and covering it with automated test suites and OWASP-aligned security testing.
+        </p>
+
+        <div class="about__cta">
+          <a class="btn btn--primary btn--sm" href="assets/Arif Wahyudi - Software Engineer Resume.pdf" download>
+            <svg><use href="#i-download"></use></svg><span>Download full CV</span>
+          </a>
+          <a class="btn btn--ghost btn--sm" href="https://www.linkedin.com/in/arifwahh/" target="_blank" rel="noopener">
+            <svg><use href="#i-linkedin"></use></svg><span>Connect on LinkedIn</span>
+          </a>
+        </div>
+      </div>
+
+      <ul class="about__facts reveal">
+        <li>
+          <span class="about__fact-ico"><svg><use href="#i-briefcase"></use></svg></span>
+          <div><strong>Current role</strong><span>Backend Automation Engineer — AutomatedPros Inc., Dubai</span></div>
+        </li>
+        <li>
+          <span class="about__fact-ico"><svg><use href="#i-code"></use></svg></span>
+          <div><strong>Primary stack</strong><span>PHP 8.4, Laravel, MongoDB, MySQL, Redis, Docker</span></div>
+        </li>
+        <li>
+          <span class="about__fact-ico"><svg><use href="#i-star"></use></svg></span>
+          <div><strong>Focus areas</strong><span>API microservices, schedulers &amp; cron automation, QA test suites</span></div>
+        </li>
+        <li>
+          <span class="about__fact-ico"><svg><use href="#i-cap"></use></svg></span>
+          <div><strong>Education</strong><span>Bachelor's in Information Systems — Jember University, 2023</span></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section--alt" id="skills">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">02 — Capabilities</span>
+      <h2 class="section__title">Technical skills</h2>
+      <p class="section__sub">A toolkit built across backend engineering, platform automation and quality assurance.</p>
+    </div>
+
+    <div class="skills-grid">
+      <article class="skill-card reveal">
+        <h3><span class="skill-card__dot" style="--dot:var(--accent-1)"></span>Programming</h3>
+        <ul class="chips">
+          <li>PHP</li><li>Java</li><li>JavaScript</li><li>TypeScript</li><li>Python</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3><span class="skill-card__dot" style="--dot:var(--accent-2)"></span>Backend</h3>
+        <ul class="chips">
+          <li>Laravel</li><li>CodeIgniter</li><li>Java Spring Boot</li><li>REST APIs</li><li>Microservices</li>
+          <li>API Automation</li><li>Cron Jobs</li><li>Scheduler Automation</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3><span class="skill-card__dot" style="--dot:var(--accent-3)"></span>Databases</h3>
+        <ul class="chips">
+          <li>MongoDB</li><li>MySQL</li><li>PostgreSQL</li><li>Microsoft SQL Server</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3><span class="skill-card__dot" style="--dot:var(--accent-4)"></span>Infrastructure &amp; Tools</h3>
+        <ul class="chips">
+          <li>Docker</li><li>Redis</li><li>Git</li><li>WebLogic</li><li>CI/CD Pipelines</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3><span class="skill-card__dot" style="--dot:var(--accent-5)"></span>Web &amp; Integrations</h3>
+        <ul class="chips">
+          <li>HTML</li><li>CSS</li><li>Tailwind CSS</li><li>Bootstrap</li><li>React.js</li>
+          <li>WordPress</li><li>Elementor</li><li>Midtrans</li><li>Telegram Bot</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3><span class="skill-card__dot" style="--dot:var(--accent-6)"></span>Quality &amp; Security</h3>
+        <ul class="chips">
+          <li>Selenium WebDriver</li><li>Selenium IDE</li><li>JUnit</li><li>Maven</li><li>Gherkin</li>
+          <li>OWASP WSTG</li><li>OWASP ZAP</li><li>Burp Suite</li><li>Kali Linux</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">03 — Journey</span>
+      <h2 class="section__title">Professional experience</h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="timeline__item reveal">
+        <div class="timeline__marker"><svg><use href="#i-code"></use></svg></div>
+        <div class="timeline__card">
+          <p class="timeline__meta"><span>2025 – 2026</span><span>Dubai, United Arab Emirates</span></p>
+          <h3>Backend Automation Engineer <em>— AutomatedPros Inc.</em></h3>
+          <ul class="bullets">
+            <li>Contributed 500+ commits to backend automation development.</li>
+            <li>Worked with the team to build three platforms supporting API microservices project automation.</li>
+            <li>Developed PMS Ticket Automation workflows that import primary endpoints from database schemas and secondary endpoints from Figma API definitions, then map them to generate dynamic backends.</li>
+            <li>Developed Service Provider components supporting API microservices, including ElevenLabs AI audio and OpenAI/GPT image-generation integrations.</li>
+            <li>Built and maintained metadata-driven API automation with Laravel microservices — automated API and project-management ticket generation from database schemas and Figma designs.</li>
+            <li>Developed schedulers and cron jobs supporting API generation workflows.</li>
+            <li>Conducted web application security testing with OWASP WSTG, OWASP ZAP, Burp Suite and Kali Linux.</li>
+          </ul>
+          <div class="tagrow"><span>PHP 8.4</span><span>Laravel</span><span>MongoDB</span><span>MySQL</span><span>Redis</span><span>Docker</span></div>
+        </div>
+      </li>
+
+      <li class="timeline__item reveal">
+        <div class="timeline__marker"><svg><use href="#i-check"></use></svg></div>
+        <div class="timeline__card">
+          <p class="timeline__meta"><span>2025</span><span>Salatiga, Indonesia</span></p>
+          <h3>Software Quality Assurance Engineer <em>— Formulatrix</em></h3>
+          <ul class="bullets">
+            <li>Created more than 1,000 manual test cases for software testing and validation.</li>
+            <li>Developed 500+ automated test cases based on manual cases, covering happy-path scenarios.</li>
+            <li>Created and managed test cases and testing guidelines using TestLink.</li>
+            <li>Developed automated tests using Selenium WebDriver and Selenium IDE.</li>
+            <li>Used Java, JUnit and Maven to implement automated software tests.</li>
+            <li>Worked with CI/CD pipelines and used Gherkin to describe requirements and testing scenarios.</li>
+            <li>Used OpenProject to support project planning and team coordination.</li>
+          </ul>
+          <div class="tagrow"><span>Selenium</span><span>JUnit</span><span>Maven</span><span>Gherkin</span><span>TestLink</span><span>OpenProject</span></div>
+        </div>
+      </li>
+
+      <li class="timeline__item reveal">
+        <div class="timeline__marker"><svg><use href="#i-briefcase"></use></svg></div>
+        <div class="timeline__card">
+          <p class="timeline__meta"><span>2023 – 2025</span><span>Salatiga, Indonesia</span></p>
+          <h3>Software Developer, System Innovation <em>— PT SCI (PT Selalu Cinta Indonesia)</em></h3>
+          <ul class="bullets">
+            <li>Coordinated IT activities and staff supporting development of an online bus ticket reservation system.</li>
+            <li>Developed online bus ticket booking functionality with Midtrans payment gateway integration.</li>
+            <li>Integrated a Telegram Bot using PHP and Node.js.</li>
+            <li>Worked with third-party travel booking platforms, including Traveloka and RedBus.</li>
+          </ul>
+          <div class="tagrow"><span>PHP</span><span>Node.js</span><span>Midtrans</span><span>Telegram Bot</span></div>
+        </div>
+      </li>
+
+      <li class="timeline__item reveal">
+        <div class="timeline__marker"><svg><use href="#i-briefcase"></use></svg></div>
+        <div class="timeline__card">
+          <p class="timeline__meta"><span>2019 – 2022</span><span>Kudus, Indonesia</span></p>
+          <h3>Software Developer &amp; IT Manager <em>— PT Sabar Subur Jaya Sentosa</em></h3>
+          <ul class="bullets">
+            <li>Migrated the 3E ERP application from a legacy J2EE-based core on WebLogic 8.1 to Java Spring Boot on WebLogic 12c.</li>
+            <li>Migrated the ERP database from Microsoft SQL Server 2000 to Microsoft SQL Server 2017.</li>
+            <li>Developed and maintained manufacturing business applications, including ERP, CRM, SCM and related systems.</li>
+            <li>Contributed to software innovation intended to improve production and management processes.</li>
+          </ul>
+          <div class="tagrow"><span>Java</span><span>Spring Boot</span><span>WebLogic</span><span>SQL Server</span><span>ERP/CRM/SCM</span></div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section section--alt" id="projects">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">04 — Portfolio</span>
+      <h2 class="section__title">All projects</h2>
+      <p class="section__sub">5 live applications and 31 public GitHub repositories — every project I have shipped, from production platforms to university coursework.</p>
+    </div>
+
+    <div class="toolbar reveal">
+      <div class="filters" id="filters" role="tablist" aria-label="Filter projects by category">
+        <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All <span class="filter__count">36</span></button>
+        <button class="filter" data-filter="web" role="tab" aria-selected="false">Web apps</button>
+        <button class="filter" data-filter="backend" role="tab" aria-selected="false">Backend &amp; API</button>
+        <button class="filter" data-filter="ai" role="tab" aria-selected="false">AI &amp; ML</button>
+        <button class="filter" data-filter="automation" role="tab" aria-selected="false">Automation &amp; QA</button>
+        <button class="filter" data-filter="tools" role="tab" aria-selected="false">Tools &amp; bots</button>
+        <button class="filter" data-filter="academic" role="tab" aria-selected="false">Academic</button>
+        <button class="filter" data-filter="misc" role="tab" aria-selected="false">Misc</button>
+      </div>
+      <div class="search">
+        <svg><use href="#i-search"></use></svg>
+        <input type="search" id="projectSearch" placeholder="Search projects…" aria-label="Search projects" autocomplete="off">
+      </div>
+    </div>
+
+    <p class="toolbar__status reveal" id="projectStatus" role="status">Showing all 36 projects.</p>
+
+    <div class="projects-grid" id="projectsGrid">
+
+      <!-- ===== FEATURED / LIVE ===== -->
+      <article class="project project--featured reveal" data-category="web" data-lang="PHP" data-name="online bus ticket reservation midtrans telegram bot ssjs awmorecreative">
+        <div class="project__badges">
+          <span class="badge badge--live"><span class="pulse-dot"></span>Live</span>
+          <span class="badge">PHP</span>
+        </div>
+        <h3 class="project__title">Online Bus Ticket Reservation System</h3>
+        <p class="project__desc">
+          Full online bus ticket reservation platform with Midtrans payment gateway integration and a
+          Telegram Bot for booking notifications. Built with PHP, JavaScript, AJAX, HTML and Tailwind CSS,
+          and connected to third-party booking platforms such as Traveloka and RedBus.
+        </p>
+        <ul class="project__stack"><li>PHP</li><li>JavaScript</li><li>AJAX</li><li>Tailwind CSS</li><li>Midtrans</li><li>Telegram Bot</li></ul>
+        <div class="project__links">
+          <a class="btn btn--primary btn--sm" href="https://ssjs.awmorecreative.com" target="_blank" rel="noopener">
+            <svg><use href="#i-external"></use></svg><span>Visit site</span>
+          </a>
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Profile</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project project--featured reveal" data-category="web" data-lang="PHP" data-name="medical record digitalization laravel tailwind sistem alih rekam medis">
+        <div class="project__badges">
+          <span class="badge badge--live"><span class="pulse-dot"></span>Live</span>
+          <span class="badge">PHP</span>
+          <span class="badge">Laravel</span>
+        </div>
+        <h3 class="project__title">Medical Record Digitalization</h3>
+        <p class="project__desc">
+          Web application for digitising and transferring patient records between facilities, developed with
+          Laravel, PHP and Tailwind CSS. Includes role-based access, searchable archives and printable
+          medical record reports.
+        </p>
+        <ul class="project__stack"><li>Laravel</li><li>PHP</li><li>Tailwind CSS</li><li>MySQL</li></ul>
+        <div class="project__links">
+          <a class="btn btn--primary btn--sm" href="https://sistemalihrm.awmorecreative.com" target="_blank" rel="noopener">
+            <svg><use href="#i-external"></use></svg><span>Visit site</span>
+          </a>
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/SistemAlihRekamMedis" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project project--featured reveal" data-category="web" data-lang="PHP" data-name="online academy course platform moodle academy awmorecreative">
+        <div class="project__badges">
+          <span class="badge badge--live"><span class="pulse-dot"></span>Live</span>
+          <span class="badge">PHP</span>
+          <span class="badge">Moodle</span>
+        </div>
+        <h3 class="project__title">Online Academy &amp; Course Platform</h3>
+        <p class="project__desc">
+          Online learning platform built on Moodle with custom PHP extensions, supporting course enrolment,
+          learning materials and progress tracking for students and instructors.
+        </p>
+        <ul class="project__stack"><li>Moodle</li><li>PHP</li><li>MySQL</li><li>JavaScript</li></ul>
+        <div class="project__links">
+          <a class="btn btn--primary btn--sm" href="https://academy.awmorecreative.com" target="_blank" rel="noopener">
+            <svg><use href="#i-external"></use></svg><span>Visit site</span>
+          </a>
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/CBTBKMK" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project project--featured reveal" data-category="ai" data-lang="Python" data-name="leaf disease segmentation deeplabv3 unet streamlit deep learning">
+        <div class="project__badges">
+          <span class="badge badge--featured"><svg><use href="#i-star"></use></svg>Featured</span>
+          <span class="badge">Python</span>
+        </div>
+        <h3 class="project__title">Leaf Disease Segmentation</h3>
+        <p class="project__desc">
+          Computer-vision pipeline that segments leaf disease regions using U-Net and DeepLabV3 models,
+          exposed through a Streamlit web demo for uploading and classifying leaf images. Includes the
+          training scripts, dataset tooling and mask generation utilities.
+        </p>
+        <ul class="project__stack"><li>Python</li><li>Streamlit</li><li>DeepLabV3</li><li>U-Net</li><li>PyTorch</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/segmentasi_penyakit_daun" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project project--featured reveal" data-category="web" data-lang="PHP" data-name="company profile ecommerce website wordpress elementor woocommerce nusa pro">
+        <div class="project__badges">
+          <span class="badge badge--live"><span class="pulse-dot"></span>Live</span>
+          <span class="badge">PHP</span>
+          <span class="badge">WordPress</span>
+        </div>
+        <h3 class="project__title">Company Profile &amp; E-commerce Website</h3>
+        <p class="project__desc">
+          Company profile site with full e-commerce functionality, built on WordPress with Elementor page
+          building and WooCommerce for the product catalogue, cart and checkout flow.
+        </p>
+        <ul class="project__stack"><li>WordPress</li><li>Elementor</li><li>WooCommerce</li><li>PHP</li></ul>
+        <div class="project__links">
+          <a class="btn btn--primary btn--sm" href="https://nusa-pro.id" target="_blank" rel="noopener">
+            <svg><use href="#i-external"></use></svg><span>Visit site</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- ===== GITHUB REPOS ===== -->
+      <article class="project reveal" data-category="web" data-lang="PHP" data-name="sistem alih rekam medis medical record source repository laravel reports">
+        <div class="project__badges"><span class="badge">PHP</span><span class="badge">JavaScript</span></div>
+        <h3 class="project__title">SistemAlihRekamMedis — Source</h3>
+        <p class="project__desc">
+          Source code behind the Medical Record Digitalization app — a Laravel/PHP core with a JavaScript
+          front-end, structured transfer modules, medical report generation and its database schema.
+        </p>
+        <ul class="project__stack"><li>Laravel</li><li>PHP</li><li>JavaScript</li><li>MySQL</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/SistemAlihRekamMedis" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="web" data-lang="PHP" data-name="moodle learning platform cbtbkmk lms codeigniter">
+        <div class="project__badges"><span class="badge">PHP</span><span class="badge">Moodle</span></div>
+        <h3 class="project__title">CBTBKMK — Moodle Platform Core</h3>
+        <p class="project__desc">
+          Full Moodle learning-platform codebase with Gherkin feature linting, Grunt build tooling, CodeSniffer
+          and Stylelint configuration, ESLint/JSHint rules and GitHub CI workflows — the codebase behind the
+          online academy platform.
+        </p>
+        <ul class="project__stack"><li>Moodle</li><li>PHP</li><li>Grunt</li><li>Gherkin</li><li>CI</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/CBTBKMK" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="backend" data-lang="PHP" data-name="event booking laravel platform ticket reservation artisan">
+        <div class="project__badges"><span class="badge">PHP</span><span class="badge">Laravel</span></div>
+        <h3 class="project__title">Event Booking</h3>
+        <p class="project__desc">
+          Laravel event-booking platform with a complete application structure — routes, controllers, database
+          migrations and seeders, queued mail notifications over SMTP, a Vite build pipeline and a PHPUnit test
+          suite.
+        </p>
+        <ul class="project__stack"><li>Laravel</li><li>PHP</li><li>MySQL</li><li>Vite</li><li>PHPUnit</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/event-booking" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="backend" data-lang="PHP" data-name="tinder hyphire backend api laravel auth">
+        <div class="project__badges"><span class="badge">PHP</span><span class="badge">Laravel</span></div>
+        <h3 class="project__title">Tinder Hyphire — Backend</h3>
+        <p class="project__desc">
+          Laravel REST API powering the Tinder Hyphire mobile app — authentication and token handling, profile
+          and match endpoints, application layer, migrations and API test coverage.
+        </p>
+        <ul class="project__stack"><li>Laravel</li><li>REST API</li><li>MySQL</li><li>PHPUnit</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/tinder-hyphire-backend" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="web" data-lang="TypeScript" data-name="tinder hyphire frontend mobile expo react native typescript">
+        <div class="project__badges"><span class="badge">TypeScript</span><span class="badge">React Native</span></div>
+        <h3 class="project__title">Tinder Hyphire — Frontend</h3>
+        <p class="project__desc">
+          Expo / React Native mobile client for the Tinder Hyphire app, written in TypeScript with a structured
+          src tree, app configuration, Babel setup and asset pipeline for the swipe-based matching experience.
+        </p>
+        <ul class="project__stack"><li>TypeScript</li><li>React Native</li><li>Expo</li><li>Babel</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/tinder-hyphire-frontend" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="ai" data-lang="JavaScript" data-name="sistem klasifikasi emosi emotion classification web vite tailwind">
+        <div class="project__badges"><span class="badge">JavaScript</span><span class="badge">Vite</span></div>
+        <h3 class="project__title">Sistem Klasifikasi Emosi</h3>
+        <p class="project__desc">
+          Emotion-classification web interface built with Vite, Tailwind CSS and a modular src architecture —
+          letting users submit text and view the predicted emotional category with a responsive UI.
+        </p>
+        <ul class="project__stack"><li>JavaScript</li><li>Vite</li><li>Tailwind CSS</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/SistemKlasifikasiEmosi" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="automation" data-lang="Python" data-name="bot discord scraper mvp tracker sqlite python telegram">
+        <div class="project__badges"><span class="badge">Python</span><span class="badge">Discord Bot</span></div>
+        <h3 class="project__title">BotDiscord</h3>
+        <p class="project__desc">
+          Python Discord bot with a Talon web scraper, MVP feature tracker, SQLite persistence and Discord
+          activity logging — automating collection and tracking of competitor MVP features.
+        </p>
+        <ul class="project__stack"><li>Python</li><li>discord.py</li><li>SQLite</li><li>Scraping</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/BotDiscord" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="ai" data-lang="Python" data-name="unet semantic segmentation urban scenes cityscapes pytorch notebook">
+        <div class="project__badges"><span class="badge">Jupyter</span><span class="badge">PyTorch</span></div>
+        <h3 class="project__title">UNet — Urban Scene Segmentation</h3>
+        <p class="project__desc">
+          PyTorch implementation of U-Net for semantic segmentation of urban scenes using the Cityscapes
+          dataset — full notebook covering the encoder/decoder architecture, custom dataset pipeline and
+          training loop.
+        </p>
+        <ul class="project__stack"><li>PyTorch</li><li>U-Net</li><li>Cityscapes</li><li>Python</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/unet" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="ai" data-lang="Python" data-name="segmentasi penyakit daun training pipeline deeplabv3 unet masks dataset">
+        <div class="project__badges"><span class="badge">Python</span><span class="badge">Deep Learning</span></div>
+        <h3 class="project__title">segmentasi_penyakit_daun — Training Pipeline</h3>
+        <p class="project__desc">
+          Training repository for the leaf-disease segmentation models — dedicated U-Net and DeepLabV3 training
+          scripts, mask-generation utilities, the leaf dataset and the generated output artefacts.
+        </p>
+        <ul class="project__stack"><li>Python</li><li>U-Net</li><li>DeepLabV3</li><li>PyTorch</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/segmentasi_penyakit_daun" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="web" data-lang="JavaScript" data-name="system docs index html documentation project">
+        <div class="project__badges"><span class="badge">HTML</span></div>
+        <h3 class="project__title">SYSTEM</h3>
+        <p class="project__desc">
+          Documentation hub for the SYSTEM project — a hand-written index page that links the internal docs
+          folder and reference material for the platform.
+        </p>
+        <ul class="project__stack"><li>HTML</li><li>Docs</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/SYSTEM" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="academic" data-lang="PHP" data-name="uaspweb web programming assignment pamasmas mysql">
+        <div class="project__badges"><span class="badge">PHP</span><span class="badge">MySQL</span></div>
+        <h3 class="project__title">uaspweb</h3>
+        <p class="project__desc">
+          Web-programming final assignment — a PHP application backed by the PAMA-MSAS MySQL schema covering
+          users, roles and transactional records.
+        </p>
+        <ul class="project__stack"><li>PHP</li><li>MySQL</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/uaspweb" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="academic" data-lang="CSS" data-name="kuis login quiz system role based mahasiswa dosen">
+        <div class="project__badges"><span class="badge">CSS</span><span class="badge">PHP</span></div>
+        <h3 class="project__title">kuislogin2</h3>
+        <p class="project__desc">
+          Online quiz platform with role-based login for students and lecturers, a dedicated quiz database
+          schema, plus the CSS framework and font assets for the interface.
+        </p>
+        <ul class="project__stack"><li>PHP</li><li>CSS</li><li>MySQL</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/kuislogin2" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="academic" data-lang="PHP" data-name="kuis2 login registration module mysql">
+        <div class="project__badges"><span class="badge">PHP</span></div>
+        <h3 class="project__title">kuis2login</h3>
+        <p class="project__desc">
+          Authentication module for the online quiz system — registration, login and session handling on top of
+          the quiz MySQL schema.
+        </p>
+        <ul class="project__stack"><li>PHP</li><li>MySQL</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/kuis2login" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="academic" data-lang="JavaScript" data-name="uas pbo final oop uasdong visual studio solution">
+        <div class="project__badges"><span class="badge">JavaScript</span><span class="badge">OOP</span></div>
+        <h3 class="project__title">UasPBOFinal</h3>
+        <p class="project__desc">
+          Final Object-Oriented Programming assignment (UasDong Visual Studio solution) — a JavaScript
+          object-model exercise built with class hierarchies and reusable components.
+        </p>
+        <ul class="project__stack"><li>JavaScript</li><li>OOP</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/UasPBOFinal" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="academic" data-lang="Python" data-name="butamu pbo satpam tamu oop queue python mysql">
+        <div class="project__badges"><span class="badge">Python</span><span class="badge">OOP</span></div>
+        <h3 class="project__title">butamuPBO</h3>
+        <p class="project__desc">
+          OOP Python exercise — a visitor and security-guard queue system built around encapsulated classes,
+          with MySQL persistence for guest records.
+        </p>
+        <ul class="project__stack"><li>Python</li><li>MySQL</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/butamuPBO" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="web" data-lang="PHP" data-name="pinjam ruang space venue booking room">
+        <div class="project__badges"><span class="badge">PHP</span></div>
+        <h3 class="project__title">pinjam-ruang</h3>
+        <p class="project__desc">
+          Space and venue booking application — reserving shared rooms and facilities with schedule, request
+          and approval handling.
+        </p>
+        <ul class="project__stack"><li>PHP</li><li>MySQL</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/pinjam-ruang-main" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="tools" data-lang="PHP" data-name="api qr plugin haohao generator decoder">
+        <div class="project__badges"><span class="badge">Plugin</span></div>
+        <h3 class="project__title">apiQRpluginhaohao</h3>
+        <p class="project__desc">
+          QR-code API plugin project — scaffolding for generating, encoding and decoding QR payloads inside an
+          application workflow.
+        </p>
+        <ul class="project__stack"><li>QR</li><li>API</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/apiQRpluginhaohao" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="automation" data-lang="Python" data-name="bot discord scrapping ro scraper">
+        <div class="project__badges"><span class="badge">Python</span></div>
+        <h3 class="project__title">BOT_Discord_Scrapping_RO</h3>
+        <p class="project__desc">
+          Scrape-and-report Discord bot — the research workspace where the RO scraping workflow was designed
+          before being folded into BotDiscord.
+        </p>
+        <ul class="project__stack"><li>Python</li><li>Scraping</li><li>Discord</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/BOT_Discord_Scrapping_RO" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="tools" data-lang="Python" data-name="bot discord ko victor discord bot experiment">
+        <div class="project__badges"><span class="badge">Python</span></div>
+        <h3 class="project__title">BOT-DISCORD-ko-Victor</h3>
+        <p class="project__desc">
+          Joint Discord bot experiment with ko-Victor — an early exploration of bot command handling and
+          community automation.
+        </p>
+        <ul class="project__stack"><li>Python</li><li>Discord</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/BOT-DISCORD-ko-Victor" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="misc" data-lang="—" data-name="event booking test scaffold empty placeholder">
+        <div class="project__badges"><span class="badge">Scaffold</span></div>
+        <h3 class="project__title">event-booking-test</h3>
+        <p class="project__desc">
+          Isolated test workspace spun up alongside the event-booking platform for staging integration and
+          deployment experiments.
+        </p>
+        <ul class="project__stack"><li>Laravel</li><li>Staging</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/event-booking-test" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="misc" data-lang="—" data-name="webcompro workspace new empty repository">
+        <div class="project__badges"><span class="badge">Workspace</span></div>
+        <h3 class="project__title">webcompro</h3>
+        <p class="project__desc">
+          Newly initialised workspace repository — the starting point for the next web-commerce initiative.
+        </p>
+        <ul class="project__stack"><li>Workspace</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/webcompro" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="misc" data-lang="—" data-name="toko store shop ecommerce scaffold empty">
+        <div class="project__badges"><span class="badge">Scaffold</span></div>
+        <h3 class="project__title">toko</h3>
+        <p class="project__desc">
+          Online store scaffold — the early repository for a shop project that later grew into the
+          WordPress/WooCommerce e-commerce build.
+        </p>
+        <ul class="project__stack"><li>Store</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/toko" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="misc" data-lang="—" data-name="pinjam ruang main2 second iteration backup copy">
+        <div class="project__badges"><span class="badge">Iteration</span></div>
+        <h3 class="project__title">pinjam-ruang-main2</h3>
+        <p class="project__desc">
+          Second iteration of the pinjam-ruang space-booking project, kept as a snapshot before the rewrite.
+        </p>
+        <ul class="project__stack"><li>PHP</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/pinjam-ruang-main2" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="misc" data-lang="—" data-name="pinjam ruang copy backup archive">
+        <div class="project__badges"><span class="badge">Backup</span></div>
+        <h3 class="project__title">pinjam-ruang-main---Copy</h3>
+        <p class="project__desc">
+          Backup copy of the pinjam-ruang project preserved for reference and rollback.
+        </p>
+        <ul class="project__stack"><li>PHP</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/pinjam-ruang-main---Copy" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="academic" data-lang="PHP" data-name="uas pweb 2021 assignment repository">
+        <div class="project__badges"><span class="badge">PHP</span></div>
+        <h3 class="project__title">UASpweb2021</h3>
+        <p class="project__desc">
+          Web programming assignment repository from 2021 — archived coursework kept for reference.
+        </p>
+        <ul class="project__stack"><li>PHP</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/UASpweb2021" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="academic" data-lang="—" data-name="uas pbo object oriented programming assignment">
+        <div class="project__badges"><span class="badge">OOP</span></div>
+        <h3 class="project__title">UasPBO</h3>
+        <p class="project__desc">
+          Object-Oriented Programming final assignment (Muhammad Alfiansyah M &amp; Muhamad Arif Wahyudi) — the
+          submission that preceded UasPBOFinal.
+        </p>
+        <ul class="project__stack"><li>OOP</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/UasPBO" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="academic" data-lang="PHP" data-name="pemweb praktikum web programming practical march">
+        <div class="project__badges"><span class="badge">PHP</span></div>
+        <h3 class="project__title">pemweb_prak_b</h3>
+        <p class="project__desc">
+          Web programming practical assignment — a single-session PHP exercise on basic web form processing and
+          data handling.
+        </p>
+        <ul class="project__stack"><li>PHP</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/pemweb_prak_b" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="academic" data-lang="PHP" data-name="project pweb course project master branch fork">
+        <div class="project__badges"><span class="badge">Coursework</span></div>
+        <h3 class="project__title">project-pweb</h3>
+        <p class="project__desc">
+          Web programming course project — a forked template repository where the course materials live on the
+          master branch.
+        </p>
+        <ul class="project__stack"><li>PHP</li><li>Coursework</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/project-pweb" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="misc" data-lang="HTML" data-name="arifwahh github io personal profile site pages">
+        <div class="project__badges"><span class="badge">HTML</span></div>
+        <h3 class="project__title">arifwahh.github.io</h3>
+        <p class="project__desc">
+          Personal GitHub Pages site — the homepage repository for this portfolio and my public profile on
+          GitHub.
+        </p>
+        <ul class="project__stack"><li>HTML</li><li>GitHub Pages</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/arifwahh.github.io" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="misc" data-lang="HTML" data-name="tugas js arif github io personal website assignments">
+        <div class="project__badges"><span class="badge">HTML</span></div>
+        <h3 class="project__title">tugasjsarif.github.io</h3>
+        <p class="project__desc">
+          GitHub Pages site hosting personal web assignments and static pages published under my own domain.
+        </p>
+        <ul class="project__stack"><li>HTML</li><li>GitHub Pages</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/tugasjsarif.github.io" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project reveal" data-category="misc" data-lang="HTML" data-name="sabar subur github io company website pages">
+        <div class="project__badges"><span class="badge">HTML</span></div>
+        <h3 class="project__title">sabarsubur.github-io</h3>
+        <p class="project__desc">
+          GitHub Pages site for PT Sabar Subur Jaya Sentosa — the company profile published for the
+          organisation I worked with as Software Developer and IT Manager.
+        </p>
+        <ul class="project__stack"><li>HTML</li><li>GitHub Pages</li></ul>
+        <div class="project__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/arifwahh/sabarsubur.github-io" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>Source</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="projects-empty" id="projectsEmpty" hidden>No projects match that search. Try a different keyword or clear the filters.</p>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section" id="education">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">05 — Foundation</span>
+      <h2 class="section__title">Education &amp; certifications</h2>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-col reveal">
+        <h3 class="edu-col__title"><svg><use href="#i-cap"></use></svg> Education</h3>
+        <ul class="edu-list">
+          <li>
+            <span class="edu-list__year">2023</span>
+            <div>
+              <strong>Bachelor's Degree in Information Systems</strong>
+              <span>Jember University, Indonesia</span>
+            </div>
+          </li>
+          <li>
+            <span class="edu-list__year">2019</span>
+            <div>
+              <strong>Software Engineering — Vocational High School</strong>
+              <span>Tunas Harapan Telecommunications, Indonesia</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="edu-col reveal">
+        <h3 class="edu-col__title"><svg><use href="#i-award"></use></svg> Certifications</h3>
+        <ul class="edu-list">
+          <li>
+            <span class="edu-list__year">2019</span>
+            <div>
+              <strong>Software Development</strong>
+              <span>National Professional Certification Institute, Indonesia</span>
+            </div>
+          </li>
+          <li>
+            <span class="edu-list__year">2019</span>
+            <div>
+              <strong>Computer Operation and Tools</strong>
+              <span>National Professional Certification Institute, Indonesia</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--alt" id="contact">
+  <div class="container">
+    <div class="contact-card reveal">
+      <div class="contact-card__glow" aria-hidden="true"></div>
+      <div class="contact-card__body">
+        <span class="section__eyebrow">06 — Contact</span>
+        <h2>Let's build something solid</h2>
+        <p>
+          Open to backend engineering, API automation and QA engineering roles — remote or on-site in
+          Indonesia or Dubai. My inbox is always open.
+        </p>
+        <div class="contact-card__actions">
+          <a class="btn btn--primary" href="mailto:arifwahh@gmail.com">
+            <svg><use href="#i-mail"></use></svg><span>arifwahh@gmail.com</span>
+          </a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/arifwahh/" target="_blank" rel="noopener">
+            <svg><use href="#i-linkedin"></use></svg><span>LinkedIn</span>
+          </a>
+          <a class="btn btn--ghost" href="https://github.com/arifwahh" target="_blank" rel="noopener">
+            <svg><use href="#i-github"></use></svg><span>GitHub</span>
+          </a>
+        </div>
+      </div>
+
+      <ul class="contact-card__list">
+        <li>
+          <span class="contact-card__ico"><svg><use href="#i-mail"></use></svg></span>
+          <div><span>Email</span><a href="mailto:arifwahh@gmail.com">arifwahh@gmail.com</a></div>
+          <button class="copy-btn" type="button" data-copy="arifwahh@gmail.com" aria-label="Copy email address">
+            <svg><use href="#i-copy"></use></svg>
+          </button>
+        </li>
+        <li>
+          <span class="contact-card__ico"><svg><use href="#i-phone"></use></svg></span>
+          <div><span>Phone</span><a href="tel:+6287733885667">+62 877-3388-5667</a></div>
+          <button class="copy-btn" type="button" data-copy="+6287733885667" aria-label="Copy phone number">
+            <svg><use href="#i-copy"></use></svg>
+          </button>
+        </li>
+        <li>
+          <span class="contact-card__ico"><svg><use href="#i-pin"></use></svg></span>
+          <div><span>Location</span><span>Semarang Regency, Indonesia</span></div>
+        </li>
+        <li>
+          <span class="contact-card__ico"><svg><use href="#i-external"></use></svg></span>
+          <div><span>Resume</span><a href="assets/Arif Wahyudi - Software Engineer Resume.pdf" download>Download PDF</a></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <p>© <span id="year">2026</span> Arif Wahyudi — Software Engineer</p>
+    <p class="footer__links">
+      <a href="https://github.com/arifwahh" target="_blank" rel="noopener"><svg><use href="#i-github"></use></svg> GitHub</a>
+      <a href="https://www.linkedin.com/in/arifwahh/" target="_blank" rel="noopener"><svg><use href="#i-linkedin"></use></svg> LinkedIn</a>
+      <a href="mailto:arifwahh@gmail.com"><svg><use href="#i-mail"></use></svg> Email</a>
+    </p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Back to top">
+  <svg><use href="#i-arrow"></use></svg>
+</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
